@@ -13,9 +13,9 @@ module Sluggr
       options = options.merge(opts.at(0))
     end
 
-    separator = options.fetch "separator"
-    prefix = options.fetch "prefix"
-    suffix = options.fetch "suffix"
+    separator = options.fetch("separator")
+    prefix = options.fetch("prefix")
+    suffix = options.fetch("suffix")
 
     str.downcase
       .gsub(/[^a-zA-Z ]/, "")
