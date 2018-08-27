@@ -1,5 +1,4 @@
 require "./spec_helper"
-require "../src/sluggr"
 
 describe Sluggr do
   it "works with a simple string" do
